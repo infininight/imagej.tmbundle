@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>injections</key>
+	<dict>
+		<key>L:(source.php - (comment | string))</key>
+		<dict>
+			<key>comment</key>
+			<string>Use L: to ensure this matches before any other injections.</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>TEST</string>
+					<key>name</key>
+					<string>invalid.illegal.test</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>name</key>
+	<string>ImageJ</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>text.html.php</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html.php.imagej</string>
+	<key>uuid</key>
+	<string>1DAE2B4E-23F3-469F-84BF-CEACC213529D</string>
+</dict>
+</plist>
